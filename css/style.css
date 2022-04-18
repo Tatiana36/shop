@@ -89,7 +89,34 @@ html {
     margin-top: 75px;
 }
 .baner_flex{
- display: flex;
-   justify-content: flex-end; 
+   display: flex;
+   justify-content: space-between;
 }
-  
+.baner_text{
+    display: flex;
+    align-self: center;
+} 
+.catalog_img{
+    width: 100%;
+}
+.text_top{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.catalog_bottom{
+    position: relative;
+    margin-top: 30px;
+}
+.accesories{
+    position: absolute;
+    top: 65px;
+    left: 491px;
+}
+.catalog_top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px
+}
