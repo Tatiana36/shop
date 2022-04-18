@@ -83,3 +83,13 @@ html {
 #menu {
     margin-top: 11px;
 }
+.baner{
+    height: 764px;
+    background: #F1E4E6;
+    margin-top: 75px;
+}
+.baner_flex{
+ display: flex;
+   justify-content: flex-end; 
+}
+  
