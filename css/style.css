@@ -53,7 +53,7 @@ summary::-webkit-details-marker {
   display: none; }
 
 body {
-  min-height: 100vh
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -123,10 +123,13 @@ body {
     text-align: center;
     color: #FFFFFF;
 }
+.catalog{
+  margin-top: 65px
+}
 .catalog__top{
     display: flex;
     justify-content: space-between;
-    margin-top: 65px
+    
 }
 .catalog_text-dec{
   font-weight: 700;
@@ -138,32 +141,35 @@ body {
 .catalog__img{
   width: 100%;
 }
+
 .catalog__top1{
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.top1{
+.catalog__header{
   position: absolute;
-  top: 105px;
-  left: 103px;
 }
 .catalog__top2{
-  position: relative;
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.top2{
-  position: absolute;
-  top: 105px;
-  left: 103px;
-}
+
 .catalog__top3{
-  position: relative;
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.top3{
-  position: absolute;
-  top: 105px;
-  left: 103px;
-}
+
 .catalog__bottom{
   position: relative; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
   margin-top: 30px; 
 }
 .catalog__bottom-text{
@@ -172,21 +178,19 @@ body {
   line-height: 19px;
   text-align: center;
   color: #FFFFFF;
-  position: absolute;
   top: 65px;
   left: 490px;
 }
 .benefits{
   height: 341px;
   background: #222224;
+  margin-top: 96px;
 }
 .benefits__wrap{
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.disconts__img{
 }
 .denefits__header{
   font-weight: 400;
@@ -208,3 +212,42 @@ margin: 28px 0 16px 0 ;
   flex-direction: column;
   align-items: center;
 }
+
+
+
+
+.form{
+  height: 448px;
+  background: url(../img/form__foto.png); 
+  background-size:100%;
+  background-repeat: no-repeat;
+}
+.form__wrap{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.form__left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form__left-text{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+.forma__text-dec{
+    font-style: italic;
+}
+  
+ 
+.footer{
+  height: 79px;
+  background: #222224;
+}
+
