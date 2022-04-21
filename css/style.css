@@ -216,13 +216,13 @@ margin: 28px 0 16px 0 ;
 
 
 
-.form{
-  height: 448px;
-  background: url(../img/form__foto.png); 
-  background-size:100%;
-  background-repeat: no-repeat;
+.form__top{
+  min-height: 448px;
+  background: url(../img/form__foto.png) center/cover no-repeat; 
+ 
 }
 .form__wrap{
+  
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -244,9 +244,61 @@ margin: 28px 0 16px 0 ;
 .forma__text-dec{
     font-style: italic;
 }
+.form__right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form__header{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167.2%;
+  text-align: center;
+  color: #222224;
+  position: relative;
+}
+.form__text{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30%;
+  text-align: center;
+  color: #222224;
+}
+.your__email{
+  height: 49px;
+  outline: none;
+  border-radius: 49px 0 0 49px;
+  padding: 0 122px 0 22px;
+  background: #E1E1E1;
+  border: 1px solid #E1E1E1;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #222224;
+
+  opacity: 0.67;
+}
+.button{
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  width: 100px;
+  height: 49px;
+  border: 1px solid #f16d7f;
+  border-radius: 0 49px 49px 0;
+  position: absolute;
+  background: #f16d7f; 
+  line-height:49px ;
+  cursor: pointer;
+}
+.button:hover {
+  background: #e05c6e;
   
+} 
  
-.footer{
+.footer__bottom{
   height: 79px;
   background: #222224;
 }
