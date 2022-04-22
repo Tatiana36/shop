@@ -248,7 +248,7 @@ margin: 28px 0 16px 0 ;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: end
 }
 .form__header{
   font-weight: 700;
@@ -256,7 +256,6 @@ margin: 28px 0 16px 0 ;
   line-height: 167.2%;
   text-align: center;
   color: #222224;
-  position: relative;
 }
 .form__text{
   font-weight: 400;
@@ -265,10 +264,17 @@ margin: 28px 0 16px 0 ;
   text-align: center;
   color: #222224;
 }
+.form{
+  display: flex;
+  position: relative;
+  justify-content: end;
+  margin-top: 32px;
+}
+
 .your__email{
   height: 49px;
   outline: none;
-  border-radius: 49px 0 0 49px;
+  border-radius: 49px ;
   padding: 0 122px 0 22px;
   background: #E1E1E1;
   border: 1px solid #E1E1E1;
@@ -276,8 +282,9 @@ margin: 28px 0 16px 0 ;
   font-size: 14px;
   line-height: 17px;
   color: #222224;
-
+  border: 1px solid transparent;
   opacity: 0.67;
+  width: 100%;
 }
 .button{
   display: inline-block;
@@ -286,20 +293,44 @@ margin: 28px 0 16px 0 ;
   color: #ffffff;
   width: 100px;
   height: 49px;
-  border: 1px solid #f16d7f;
+  border: 1px solid #F16D7F;
   border-radius: 0 49px 49px 0;
   position: absolute;
   background: #f16d7f; 
   line-height:49px ;
-  cursor: pointer;
 }
 .button:hover {
   background: #e05c6e;
-  
+  border: 1px solid #e05c6e;
+ 
 } 
  
 .footer__bottom{
   height: 79px;
   background: #222224;
+    display: flex;
 }
+.copi{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FBFBFB;
+}
+.footer__bottom-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__bottom-img{
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
 
