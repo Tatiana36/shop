@@ -76,19 +76,24 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.header_left, .header_right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.menu__left{
+  display: flex;
+  gap: 41px;
+  align-items: end;
 }
-.header_left{
-    gap: 41px;
+.header_right-menu{
+  line-height: 33px; 
 }
-.header_right{
-    gap: 33px;
+.menu__right{
+  display: flex;
+  gap: 33px;
+  align-items: end;
 }
+.header_right-menu{
+  line-height: 33px;
+}
+
 .baner{
-   
     background: #F1E4E6;  
 }
 .baner_wrap{
@@ -198,7 +203,7 @@ body {
   line-height: 24px;
   color: #FBFBFB;
   text-align: center;
-margin: 28px 0 16px 0 ;
+  margin: 28px 0 16px 0 ;
 }
 .text__deliveri{
   font-weight: 300;
@@ -219,21 +224,21 @@ margin: 28px 0 16px 0 ;
 .form__top{
   min-height: 448px;
   background: url(../img/form__foto.png) center/cover no-repeat; 
- 
 }
 .form__wrap{
   
-    height: 100%;
+   min-height: 448px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.form__left{
+.form__right{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.form__left-text{
+.form__right-text{
     margin-top: 30px;
     font-weight: 400;
     font-size: 20px;
@@ -244,10 +249,9 @@ margin: 28px 0 16px 0 ;
 .forma__text-dec{
     font-style: italic;
 }
-.form__right{
+.form__left{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: end
 }
 .form__header{
@@ -302,7 +306,13 @@ margin: 28px 0 16px 0 ;
   background: #e05c6e;
   border: 1px solid transparent;
  
-} 
+}
+.footer__left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
  
 .footer__bottom{
   height: 79px;
@@ -321,8 +331,24 @@ margin: 28px 0 16px 0 ;
     align-items: center;
 }
 .footer__bottom-img{
-    margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #222222;
+  background: #ffffff;
 }
+.footer__bottom-img:hover svg path {
+  background: #f16d7f;
+  border: 1px solid #f16d7f;
+
+}
+.footer__bottom-img:hover svg {
+  fill: #f16d7f;
+
+}
+
 
 
 
