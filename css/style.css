@@ -302,7 +302,7 @@ margin: 28px 0 16px 0 ;
   border: 1px solid transparent;
  
 }
-.footer__left{
+.footer__right{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -312,7 +312,7 @@ margin: 28px 0 16px 0 ;
 .footer__bottom{
   height: 79px;
   background: #222224;
-    display: flex;
+  display: flex;
 }
 .copi{
   font-weight: 400;
