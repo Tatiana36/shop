@@ -76,19 +76,24 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.header_left, .header_right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.menu__left{
+  display: flex;
+  gap: 41px;
+  align-items: end;
 }
-.header_left{
-    gap: 41px;
+.header_right-menu{
+  line-height: 33px; 
 }
-.header_right{
-    gap: 33px;
+.menu__right{
+  display: flex;
+  gap: 33px;
+  align-items: end;
 }
+.header_right-menu{
+  line-height: 33px;
+}
+
 .baner{
-   
     background: #F1E4E6;  
 }
 .baner_wrap{
@@ -198,7 +203,7 @@ body {
   line-height: 24px;
   color: #FBFBFB;
   text-align: center;
-margin: 28px 0 16px 0 ;
+  margin: 28px 0 16px 0 ;
 }
 .text__deliveri{
   font-weight: 300;
@@ -306,7 +311,7 @@ margin: 28px 0 16px 0 ;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+
 }
  
 .footer__bottom{
@@ -341,7 +346,7 @@ margin: 28px 0 16px 0 ;
 }
 .footer__bottom-img:hover svg {
   fill: #f16d7f;
-  
+
 }
 
 
