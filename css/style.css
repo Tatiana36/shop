@@ -69,27 +69,32 @@ body {
  } 
 .header{
     background:#222222;
+
 }
 .header_wrap{
     padding: 18px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .header_left, .header_right{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
+
+
 .header_left{
     gap: 41px;
+
 }
 .header_right{
     gap: 33px;
 }
 .baner{
-   
-    background: #F1E4E6;  
+    background: #F1E4E6;
 }
 .baner_wrap{
     height: 100%;
@@ -217,15 +222,16 @@ margin: 28px 0 16px 0 ;
 
 
 .form__top{
-  min-height: 448px;
+  height: 448px;
   background: url(../img/form__foto.png) center/cover no-repeat; 
 }
 .form__wrap{
   
-   min-height: 448px;
+    min-height: 448px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .form__right{
     display: flex;
@@ -341,7 +347,28 @@ margin: 28px 0 16px 0 ;
 }
 .footer__bottom-img:hover svg {
   fill: #f16d7f;
-  
+} 
+.mega__box{
+  background-color: #ffffff;
+}
+.mega__box-header{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 37px;
+    margin-left: 34px;
+}
+.mega__item-header{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    margin-top: 24px;
+    margin-left: 33px;
+}
+.mega__link{
+    display: block;
 }
 
 
