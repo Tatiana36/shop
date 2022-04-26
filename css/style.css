@@ -110,13 +110,25 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+  margin-bottom: 24px;
 }
+
 .header__menu-section{
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #F16D7F;
+  margin-bottom: 16px;
 }
+.header__menu-link{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  margin-bottom: 11px;
+  margin-left: 20px;
+}
+
 .header__menu-close{
   display: flex;
   justify-content: end;
