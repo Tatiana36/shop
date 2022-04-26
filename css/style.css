@@ -91,44 +91,55 @@ body {
 }
 .header_right{
     gap: 33px;
-    position: relative;
-  
 }
-.header__menu-list{
-  display: none;
-  background: #ffffff;
-  width: 232px;
-  min-height: 764px;
-  padding: 16px 16px 34px 34px;
-  position: absolute;
-  right: 0;
-  top: 59px;
-  z-index: 1;
+.burger__menu{
+  background-color: transparent;
+  padding: 20px;
 }
-.header__menu-title{
+.cross{
+  background-color: transparent; 
+  margin-top: 16px;
+margin-left: 203px;
+}
+.burger__heading{
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+  margin-left: 34px;
+  margin-top: 9px;
 }
-.header__menu-section{
+.menu__heading{
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #F16D7F;
-}
-.header__menu-close{
-  display: flex;
-  justify-content: end;
-}
-#header__menu-switch{
-  display: none;
-
-}
-#header__menu-switch:checked ~ .header__menu-list{
-  display: block;
+  margin-top: 24px;
+  margin-left: 33px;
+  margin-bottom: 12px;
 }
 
+.box__burger-menu{
+    position: absolute;
+    width: 232px;
+    background: #ffffff;
+}
+#box__burger-menu {
+    display: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.menu__link{
+display: block;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #6F6E6E;
+padding-bottom: 6px;
+padding-left: 54px;
+}
 .baner{
     background: #F1E4E6;
 }
@@ -139,6 +150,8 @@ body {
     justify-content: flex-end;
     align-items: center;
     min-height: 764px;
+    position: relative;
+
 }
 .baner_title{
    margin: 0 100px 91px 0;
@@ -168,7 +181,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.box__product-header{
+.box__product-heading{
     margin-bottom: 6px;
     font-weight: 400;
     font-size: 30px;
@@ -266,7 +279,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.catalog__header{
+.catalog__heading{
   position: absolute;
 }
 .catalog__top2{
