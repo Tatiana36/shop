@@ -196,6 +196,7 @@ padding-left: 54px;
     background: #F8F8F8;
     width: 360px;
     margin-bottom: 30px;
+    position: relative;
 }
 .cart__text{
     padding: 20px;
@@ -337,6 +338,60 @@ padding-left: 54px;
   line-height: 17px;
   text-align: center;
   color: #FBFBFB;
+}
+.box__cart:hover .box__pic{
+  filter: brightness(30%);
+}
+.box__cart:hover .add__box{
+  display: flex;
+}
+.add__box{
+  display: flex;
+  position: absolute;
+  top: 188px;
+  width: 100%;
+  justify-content: center;
+  pointer-events: none;
+  display: none;
+} 
+.add{
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #FFFFFF;
+  pointer-events: all;
+ 
+}
+.add:hover{
+  box-shadow: 0 0 10px #FFFFFF
+}
+.text__add{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.browse{
+  margin-top: 48px;
+}
+.browse__box{
+  display: flex;
+  justify-content: center;
+}
+.browse__button{
+  display: flex;
+  border: 1px solid #F26376;
+  background: #FFFFFF;
+}
+.browse__text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F26376;
+  padding: 14px;
+}
+.browse__button:hover{
+  box-shadow: 0 5px 8px rgba(0.16,0.16,0.16,0.16);
 }
 .benefits__info{
   display: flex;
