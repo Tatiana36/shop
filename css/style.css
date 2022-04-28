@@ -81,7 +81,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    
 }
 
 
@@ -91,15 +91,15 @@ body {
 }
 .header_right{
     gap: 33px;
+    position: relative;
 }
 .burger__menu{
   background-color: transparent;
-  padding: 20px;
 }
 .cross{
   background-color: transparent; 
   margin-top: 16px;
-margin-left: 203px;
+  margin-left: 203px;
 }
 .burger__heading{
   font-weight: 700;
@@ -130,6 +130,10 @@ margin-left: 203px;
     overflow-x: hidden;
     height: 100%;
 }
+.box__bur-menu{
+  background: white;
+  width: 232px;
+}
 
 .menu__link{
 display: block;
@@ -150,7 +154,7 @@ padding-left: 54px;
     justify-content: flex-end;
     align-items: center;
     min-height: 764px;
-    position: relative;
+    
 
 }
 .baner_title{
