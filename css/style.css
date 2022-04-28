@@ -68,7 +68,6 @@ body {
  } 
 .header{
     background:#222222;
-
 }
 .header_wrap{
     padding: 18px 0;
@@ -393,6 +392,13 @@ padding-left: 54px;
 .browse__button:hover{
   box-shadow: 0 5px 8px rgba(0.16,0.16,0.16,0.16);
 }
+.browse__button:hover{
+  background: #e05c6e;
+}
+.browse__button:hover .browse__text{
+color: #ffffff;
+}
+
 .benefits__info{
   display: flex;
   flex-direction: column;
@@ -551,7 +557,13 @@ padding-left: 54px;
 .mega__link{
     display: block;
 }
+    
 
+
+.catalog__menu{
+  background: #F8F3F4;
+  height: 148px;
+}
 
 
 
