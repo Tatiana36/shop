@@ -564,6 +564,17 @@ color: #ffffff;
   background: #F8F3F4;
   height: 148px;
 }
+.catalog__box{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.catalog__box-heading{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
+}
 
 
 
