@@ -444,6 +444,29 @@ padding-left: 54px;
   border: 1px solid transparent;
  
 }
+
+.browse{
+    margin-top: 48px;
+}
+.browse__box{
+    display: flex;
+    justify-content: center;
+}
+.browse__button{
+    display: flex;
+    border: 1px solid #F26376;
+    background: #FFFFFF;
+}
+.browse__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    padding: 14px;
+}
+.browse__button:hover{
+    box-shadow: 0 5px 8px rgba(0.16,0.16,0.16,0.16);
+}
 .footer__right{
   display: flex;
   align-items: center;
