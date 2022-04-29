@@ -506,10 +506,6 @@ padding-left: 54px;
 .mega__link{
     display: block;
 }
-
-
-
-
 .catalog__menu{
   background: #F8F3F4;
   height: 148px;
@@ -543,7 +539,6 @@ padding-left: 54px;
   color: #636363;
   content: "/\00a0";
 }
-
 .breadcrumb li a:hover {
   color: #F16D7F;
 }
@@ -553,13 +548,6 @@ padding-left: 54px;
   line-height: 17px;
   color: #F16D7F;
 }
-
-
-
-
-
-
-
 .slideshow__box{
   height: 776px;
   background: #F7F7F7;
@@ -597,3 +585,43 @@ padding-left: 54px;
 }
 
 
+.info__box {
+    height: 601px;
+    background: #FFFFFF;
+}
+.info__wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #eaeaea;
+}
+.heading__info1{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    margin-top: 64px;
+    margin-bottom: 12px;
+}
+.heading__info2{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    margin-top: 12px;
+    margin-bottom: 48px;
+}
+.info__txt{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    padding-bottom: 32px;
+}
+.info__price{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+}
