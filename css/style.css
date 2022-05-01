@@ -609,14 +609,20 @@ padding-left: 54px;
 
 
 .info__box {
-    height: 601px;
+    height: 550px;
     background: #FFFFFF;
+    justify-content: center;
+    display: flex;
+    position: relative;
 }
 .info__wrap{
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid #eaeaea;
+    background: #FFFFFF;
+    position: absolute;
+    top: -50px;
 }
 .heading__info1{
     font-weight: 300;
@@ -647,4 +653,17 @@ padding-left: 54px;
     font-size: 24px;
     line-height: 29px;
     color: #EF5B70;
+    margin-bottom: 65px;
+}
+
+
+
+
+.product__catalog{
+    border: #FFFFFF;
+    margin-bottom: 128px;
+}
+.product__box{
+    display: flex;
+    justify-content: space-between;
 }
