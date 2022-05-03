@@ -10,9 +10,10 @@
           <meta charset="UTF-8">
           <title> Shop.Main </title>
           <meta name="viewport" content="width=device-width, initial-scale=1">
-          <link rel="stylesheet" href="css/style.css">
+          <link rel="stylesheet/less" href="css/style.less">
           <link rel="preconnect" href="https://fonts.gstatic.com">
           <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+            <script src="https://cdn.jsdelivr.net/npm/less@4" ></script>
         </head>
 <body>
     <header class="header">
@@ -72,11 +73,6 @@
               </div>
         </div>
     </header>
-
-
-
-
-    
     <section class="baner">
         <div class="container baner_wrap">
            <h1 class="baner_title">
@@ -85,7 +81,7 @@
            </h1>
         </div>
     </section>
-     <section class="catalog">
+    <section class="catalog">
         <div class="container catalog__wrap">
             <div class="catalog__top">
                 <a class="catalog__link" href="#">
@@ -182,6 +178,17 @@
                     </div>
                     <div class="box__cart">
                         <a class="box__link" href="#">
+                            <img class="box__pic" src="img/product-6.jpg" alt="product">
+                            <div class="cart__text">
+                                <p class="cart__header">ELLERY X M'O CAPSULE</p>
+                                <p class="cart__desc">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                                <p class="cart__praic">$52.00</p>
+                            </div>
+                        </a>
+                        <a href="#"></a>
+                    </div>
+                    <div class="box__cart">
+                        <a class="box__link" href="#">
                             <img class="box__pic" src="img/product-5.jpg" alt="product">
                             <div class="cart__text">
                                 <p class="cart__header">ELLERY X M'O CAPSULE</p>
@@ -191,22 +198,9 @@
                         </a>
                         <a href=""></a>
                     </div>
-                    <div class="box__cart">
-                        <a class="box__link" href="#">
-                            <img class="box__pic" src="img/product-6.jpg" alt="product">
-                            <div class="cart__text">
-                                <p class="cart__header">ELLERY X M'O CAPSULE</p>
-                                <p class="cart__desc">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                                <p class="cart__praic">$52.00</p>
-                            </div>
-                        </a>
-                        <a href=""></a>
-                    </div>
-
                 </div>
         </div>
     </section>
-
     <section class="browse">
         <div class="container browse__box">
             <button class="browse__button">
@@ -233,7 +227,6 @@
             </div>
         </div>
     </section>
-
     <section class="footer">
       <div class="form__top">
         <div class="container form__wrap">
@@ -319,10 +312,5 @@
        </div>
      </div>
     </section>
-
-
-
-
-   
 </body>
 </html>
