@@ -697,9 +697,34 @@ details{
   margin-top: 65px;
   margin-bottom: 49px;
 }
-.fa-angle-right{
-  margin-left: 9px;
+
+
+
+
+summary {
+  display: block;
 }
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::after {
+  content: '\25B7';
+  padding-right: 0.5em;
+  padding-left: 9px;
+}
+
+details[open] > summary::after {
+  content: '\25BD';
+  padding-left: 9px;
+}
+
+
+
+
+
+
   .but__txt{
   font-weight: 400;
   font-size: 16px;
@@ -856,6 +881,13 @@ background: #FFFFFF;
   line-height: 16px;
   color: #B1B1B1;
   padding-bottom: 39px;
+  width: 87%;
+}
+.registration__heading{
+  margin-bottom: 22px;
+}
+.registration__infa-txt{
+  width: 78%;
 }
 
 
@@ -882,4 +914,14 @@ background: #FFFFFF;
 
 .registration__infa{
   margin-left: 128px;
+}
+
+
+
+
+
+&rsaquo{
+  width: 10px;
+  height: 5px;
+  color: #EF5B70;
 }
