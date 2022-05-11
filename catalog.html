@@ -87,20 +87,14 @@
                     </div>
                 </div>
             </section>
-
-
-
-
-
-
-
-<section class="catalog__nav">
+            <section class="catalog__nav">
     <div class="container">
         <div class="nav__flex">
-            <div class="filter">
-                <details id="filter__box">
-                    <summary id="filter">FILTER</summary>
-                    <details id="category__box">
+            <div class="filter__left">
+             <div class="filter">
+                 <details id="filter__box">
+                     <summary id="filter">FILTER</summary>
+                     <details id="category__box">
                         <summary id="category">CATEGORY</summary>
                         <a href="#"><h3 class="catalog__txt">Accessories</h3></a>
                         <a href="#"><h3 class="catalog__txt">Bags</h3></a>
@@ -114,14 +108,20 @@
                         <a href="#"><h3 class="catalog__txt">T-Shirts</h3></a>
                         <a href="#"><h3 class="catalog__txt">Tanks</h3></a>
                     </details>
-                    <details id="brand__box">
+                     <details id="brand__box">
                         <summary id="brand">BRAND</summary>
                     </details>
-                    <details id="designer__box">
+                     <details id="designer__box">
                         <summary id="designer">DESIGNER</summary>
                     </details>
-                </details>
+                 </details>
+             </div>
             </div>
+
+
+
+
+<div class="filter__right">
             <div class="trending">
                 <details id="trending__box">
                     <summary id="trending">TRENDING NOW</summary>
@@ -130,6 +130,16 @@
             <div class="size">
                 <details id="size__box">
                     <summary id="size">SIZE </summary>
+                    <form class="form__size">
+                        <input class="size__checkbox" type="checkbox" name="size1" value="XS">
+                        <label class="size">XS</label><br>
+                        <input class="size__checkbox" type="checkbox" name="size2" value="XS">
+                        <label class="size">S</label><br>
+                        <input class="size__checkbox" type="checkbox" name="size3" value="XS">
+                        <label class="size">M</label><br>
+                        <input class="size__checkbox" type="checkbox" name="size4" value="XS">
+                        <label class="size">L</label><br>
+                    </form>
                 </details>
             </div>
             <div class="price">
@@ -137,14 +147,11 @@
                     <summary id="price">PRICE</summary>
                 </details>
             </div>
+</div>
+
         </div>
     </div>
 </section>
-
-
-
-
-
             <section class="box__catalog">
                 <div class="container">
                     <div class="catalog1__flex">
