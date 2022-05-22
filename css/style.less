@@ -56,6 +56,35 @@ summary:hover {
 summary::-webkit-details-marker {
   display: none; }
 
+
+
+
+@keyframes jello-horizontal {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+
 body {
   min-height: 100vh;
   display: flex;
@@ -293,8 +322,8 @@ padding-left: 54px;
 .catalog__top{
     display: flex;
     justify-content: space-between;
-    
 }
+
 .catalog_text-dec{
   font-weight: 700;
   font-size: 24px;
@@ -524,7 +553,10 @@ padding-left: 54px;
   border: 1px solid #222222;
   background: #ffffff;
 }
-.footer__bottom-img:hover svg path {
+.footer__bottom-img:hover{
+  transform: rotate(360deg);
+}
+.footer__bottom-img:hover.fb{
   background: #f16d7f;
   border: 1px solid #f16d7f;
 
@@ -1300,4 +1332,18 @@ summary#designer::after{
   margin-top: 32px;
   margin-bottom: 128px;
   box-shadow: 0 5px 8px rgba(0.16,0.16,0.16,0.16);
+}
+
+
+.catalog__top1:hover{
+    animation: jello-horizontal 0.9s both;
+}
+.catalog__top2:hover{
+  animation: jello-horizontal 0.9s both;
+}
+.catalog__top3:hover{
+  animation: jello-horizontal 0.9s both;
+}
+.catalog__bottom:hover{
+  animation: jello-horizontal 0.9s both;
 }
