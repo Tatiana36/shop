@@ -456,11 +456,13 @@ padding-left: 54px;
   border-radius: 0 49px 49px 0;
   position: absolute;
   background: #f16d7f; 
-  line-height:49px ;
+  line-height: 49px;
+  transition: background 1s;
 }
 .button:hover {
-  background: #e05c6e;
-  border: 1px solid transparent;
+  background: #FFFFFF;
+  border: 1px solid #F16D7F;
+  color: #F16D7F;
 }
 .browse{
     margin-top: 18px;
@@ -469,10 +471,13 @@ padding-left: 54px;
     display: flex;
     justify-content: center;
 }
-.browse__button{
+.browse__button1{
     display: flex;
     border: 1px solid #F26376;
-    background: #F26376;
+    background-color: #F26376;
+    margin-bottom: 65px;
+    transition: background-color 1s;
+    box-shadow: 0 5px 8px rgba(0.16,0.16,0.16,0.16);
 }
 .browse__text{
     font-weight: 400;
@@ -481,11 +486,11 @@ padding-left: 54px;
     color: #FFFFFF;
     padding: 14px 38px;
 }
-.browse__button:hover{
-  background: #FFFFFF;
+.browse__button1:hover{
+    background-color: #FFFFFF;
     box-shadow: 0 5px 8px rgba(0.16,0.16,0.16,0.16);
 }
-.browse__button:hover .browse__text{
+.browse__button1:hover .browse__text{
   color: #F26376;
 }
 .footer__right{
@@ -742,11 +747,26 @@ details[open] > summary::after {
   gap: 23px;
  padding: 15px 56px 9px 23px;
 }
-.browse__button{
-  margin-bottom: 65px;
-  background: #ffffff;
+.bottom__but{
+  color: #F26376;
 }
-
+.browse__button2{
+  margin-bottom: 65px;
+  background-color: #ffffff;
+  border: 1px solid #F26376;
+  transition: background-color 1s;
+  box-shadow: 0 5px 8px rgba(0.16,0.16,0.16,0.16);
+}
+.browse__button2:hover{
+  background-color: #F26376;
+  box-shadow: 0 5px 8px rgba(0.16,0.16,0.16,0.16);
+}
+.browse__button2:hover .bottom__but{
+  color: #FFFFFF;
+}
+.browse__button2:hover .but__txt{
+  color: #FFFFFF;
+}
 
 
 
@@ -914,7 +934,15 @@ padding-bottom: 21px;
 .reg__button{
   display: flex;
   border: 1px solid #F16D7F;
-  background: #F16D7F;
+  background-color: #F16D7F;
+  transition: background-color 1s;
+  box-shadow: 0 5px 8px rgba(0.16,0.16,0.16,0.16);
+}
+.reg__button:hover{
+  background-color: #FFFFFF;
+}
+.reg__button:hover .bot__txt{
+  color: #F16D7F;
 }
 .reg__botton-but{
   display: flex;
@@ -954,8 +982,8 @@ padding-bottom: 21px;
   background: #FFFFFF;
 }
 #filter__box{
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 #filter{
   padding-top: 13px;
@@ -1021,7 +1049,7 @@ summary#brand::after{
 }
 #designer__box{
   margin-top: 13px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 #designer{
   border-left: 5px solid #EF5B70;
@@ -1240,11 +1268,18 @@ summary#designer::after{
   color: #FFFFFF;
   height: 50px;
   border: 1px solid #EF5B70;
-  background: #EF5B70;
+  background-color: #EF5B70;
   margin-top: 17px;
   margin-bottom: 42px;
   padding: 15px 42px;
+  transition: background-color 1s;
 }
+.button__cart:hover{
+  background-color: #FFFFFF;
+  color: #EF5B70;
+  box-shadow: 0 5px 8px rgba(0.16,0.16,0.16,0.16);
+}
+
 .button__wrap{
   display: flex;
   justify-content: space-around;
@@ -1264,4 +1299,5 @@ summary#designer::after{
   padding: 16px 39px;
   margin-top: 32px;
   margin-bottom: 128px;
+  box-shadow: 0 5px 8px rgba(0.16,0.16,0.16,0.16);
 }
