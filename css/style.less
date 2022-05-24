@@ -1369,7 +1369,11 @@ summary#designer::after{
   margin-bottom: 128px;
   box-shadow: 0 5px 8px rgba(0.16,0.16,0.16,0.16);
 }
-
+@media (min-width: 377px) and (max-width:768px){
+  .baner__img{
+    display: none;
+  }
+}
 
 @media (max-width: 768px){
   .header_left{
@@ -1390,6 +1394,9 @@ summary#designer::after{
       font-size: 24px;
       line-height: 28px;
     }
+    .catalog{
+      margin-top: 19px;
+    }
     .box__cart{
       width: 48%;
   }
@@ -1409,9 +1416,11 @@ summary#designer::after{
     .form__top{
       height: 693px;
     }
+
     .form__wrap{
+      height: 100%;
       flex-wrap: wrap;
-      align-items: end;
+      align-items: center;
     }
     .form__right{
       width: 100%;
@@ -1428,6 +1437,7 @@ summary#designer::after{
     .form{
       justify-content: center;
     }
+
     .form__top{
      background: url(http://local.me/shop/img/footer_min.png);
     }
@@ -1435,9 +1445,74 @@ summary#designer::after{
      display: none;
     }
 }
-@media (max-width: 375px){
-  .header_right{
-    
+@media (max-width: 376px){
+  .header_right-svg{
+    display: none;
+  }
+  .baner{
+    height: 363px;
+  }
+  .baner__img{
+    display: none;
+  }
+  .baner_title{
+    font-size: 38px;
+    line-height: 46px;
+    width: 100%;
+    margin-left: 13%;
+  }
+  .baner_text{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .baner_text-dec{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .catalog__top{
+    flex-wrap: wrap;
+  }
+  .catalog__link{
+    width: 100%;
+  }
+  .catalog__link2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .catalog__bottom{
+    margin-top: 5%;
+  }
+  .catalog__img4{
+    height: 111px;
+  }
+  .box__product{
+    margin-top: 18%;
+  }
+  .form__right-text{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .your__email{
+    width: 100%;
+  }
+  .button{
+    margin-left: 72%;
+  }
+  .form__wrap{
+    height: 100%;
+  }
+  .footer__bottom-wrap{
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .footer__bottom{
+    height: 143px;
+  }
+  .footer__right{
+    margin-top: 13%;
+  }
+  .footer__left{
+    margin-bottom: 2%;
   }
 }
 
