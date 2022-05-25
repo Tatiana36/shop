@@ -171,7 +171,7 @@ body {
     position: absolute;
     width: 232px;
     background: #ffffff;
-    z-index: 1;
+    z-index: 10;
 }
 .box__burger-menu1{
   position: absolute;
@@ -1199,6 +1199,7 @@ summary#designer::after{
 .filter__right{
   display: flex;
   margin-top: 10px;
+  z-index: 1;
 }
 .size{
   font-weight: 400;
@@ -1406,7 +1407,9 @@ summary#designer::after{
   box-shadow: 0 5px 8px rgba(0.16,0.16,0.16,0.16);
 }
 @media (min-width: 377px) and (max-width:768px){
-
+.baner{
+  display: none;
+}
 }
 
 @media (max-width: 768px){
